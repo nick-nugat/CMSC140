@@ -1,0 +1,26 @@
+{
+  "showInlineTitle": false,
+  "promptDelete": false,
+  "livePreview": false,
+  "autoPairBrackets": false,
+  "autoPairMarkdown": false,
+  "showFrontmatter": true,
+  "spellcheck": true,
+  "attachmentFolderPath": "Media",
+  "alwaysUpdateLinks": true,
+  "legacyEditor": false,
+  "spellcheckLanguages": null,
+  "showUnsupportedFiles": true,
+  "newLinkFormat": "shortest",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "2",
+    "downscalePercent": 68
+  },
+  "defaultViewMode": "source",
+  "userIgnoreFilters": [
+    "Intimacy/"
+  ]
+}

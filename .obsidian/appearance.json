@@ -1,0 +1,15 @@
+{
+  "accentColor": "#66c5f5",
+  "baseFontSize": 16,
+  "cssTheme": "",
+  "textFontFamily": "",
+  "showViewHeader": true,
+  "nativeMenus": false,
+  "baseFontSizeAction": false,
+  "translucency": false,
+  "theme": "obsidian",
+  "interfaceFontFamily": "American Typewriter",
+  "enabledCssSnippets": [
+    "image-zoom"
+  ]
+}
