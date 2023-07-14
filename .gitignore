@@ -5,7 +5,7 @@
 .obsidian/workspace
 .vscode
 .DS_Store
-
+*.dSYM
 
 # C++
 
