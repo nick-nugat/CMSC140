@@ -3,7 +3,7 @@
  * Instructor: Professor McGowan
  * Classwork 6 - Part 1 
  * Description: 
- * Due Date: 
+ * Due Date: 2023-07-24
  * I pledge that I have completed the programming assignment independently.
    I have not copied the code from a student or any source.
    I have not given my code to any student.
