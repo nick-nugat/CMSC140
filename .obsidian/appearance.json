@@ -8,7 +8,7 @@
   "baseFontSizeAction": false,
   "translucency": false,
   "theme": "obsidian",
-  "interfaceFontFamily": "American Typewriter",
+  "interfaceFontFamily": "",
   "enabledCssSnippets": [
     "image-zoom"
   ]

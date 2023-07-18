@@ -2,7 +2,7 @@
  * Class: CMSC140 CRN 40375
  * Instructor: Professor McGowan
  * Project 3
- * Description: (Give a brief description for Project)
+ * Description: Calculates hotel income, total rooms, total occupied rooms, total unoccupied rooms, and occupany rate.
  * Due Date: 2023-07-17
  * I pledge that I have completed the programming assignment independently.
    I have not copied the code from a student or any source.
@@ -29,7 +29,7 @@ int main(){
         suitesOccupied,
 
         totalOccupiedRooms,
-
+ 
         //unoccupied rooms
         unoccupiedRooms,
         
@@ -89,7 +89,6 @@ int main(){
         if ((singleRoomsOccupied + doubleRoomsOccupied + kingRoomsOccupied + suitesOccupied) > roomsPerFloor){
             while ((singleRoomsOccupied + doubleRoomsOccupied + kingRoomsOccupied + suitesOccupied) > roomsPerFloor) {
                 cout << "The number of occupied rooms exceeds the total number of rooms on this floor. Please try again!" << endl << endl;
-                
                 cout << "Enter rooms on floor #" << i << ": ";
                 cin >> roomsPerFloor;
                 if (roomsPerFloor < 1 || roomsPerFloor > 30){
