@@ -35,10 +35,11 @@ int showMenu(){
     double coke = 1.25,
            pepsi = 1.00,
            water = 2.00,
-           coffee =  1.50;
-    double price;
+           coffee =  1.50,
+           price;
 
-    cout << "1. Coke \t$1.25" << endl
+    cout << "**** Vending Machine ****" << endl
+         << "1. Coke \t$1.25" << endl
          << "2. Pepsi \t$1.00" << endl
          << "3. Water \t$2.00" << endl
          << "4. Coffee \t$1.50" << endl

@@ -23,15 +23,13 @@ int subtraction(int, int);
 
 
 int main(){
-    int num1, num2, choice;
+    int num1, num2, choice, result;
 
     do {
         choice = getChoice();
     } while (!(validateChoice(choice)));
 
     getNumbers(num1, num2);
-
-    int result;
     if (choice == 1){
         result = addition(num1, num2);
         cout << "The result of this operation is: " << result;
