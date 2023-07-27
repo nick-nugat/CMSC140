@@ -1,0 +1,20 @@
+EMPLOYEE ABSENCE REPORT
+    1              1
+    1              1
+    1              1
+    1              2
+    3              1
+    4              1
+    5              1
+    6              7
+    1              7
+    8              9
+
+
+The 10 employees were absent a total of 31 days.
+The average number of days absent is 3.1
+
+Class: CMSC140 CRN 40375
+Assignment: Project 4
+Programmer: Nicholas Nguyen
+Due Date: 07/24/2023
