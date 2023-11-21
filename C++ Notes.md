@@ -1,8 +1,8 @@
 ---
-alias: 
+aliases: 
 - "202306071010"
 ---
-> [[_004 School 🏫]]
+> [[School]]
 
 # Learning C++ ✨
 - `cout` - stream object
