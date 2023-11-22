@@ -1,13 +1,10 @@
-# Obsidian
-
-.trash
-.obsidian/workspace.json
-.obsidian/workspace
+# IDE Specific
 .vscode
+
+# macOS
 .DS_Store
 *.dSYM
 
-# C++
 
 # Prerequisites
 *.d
@@ -41,3 +38,4 @@
 *.exe
 *.out
 *.app
+
