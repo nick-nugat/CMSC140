@@ -96,20 +96,19 @@ bool isMagicSquare(int arrayRow1[], int arrayRow2[], int arrayRow3[], int size){
 bool checkRange(int arrayRow1[], int arrayRow2[], int arrayRow3[], int size, int min, int max){
 
        for (int i = 0; i < size; i++){
-              if (arrayRow1[i] < min || arrayRow1[i] > max || arrayRow2[i] < min || arrayRow2[i] > max || arrayRow3[i] < min || arrayRow3[i] > max){
-                     return false;
-              }
+              if (arrayRow1[i] < min || arrayRow1[i] > max ||
+                     arrayRow2[i] < min || arrayRow2[i] > max || 
+                     arrayRow3[i] < min || arrayRow3[i] > max) return false;
        }
        return true;
+       
 
 }
 
 bool checkUnique(int arrayRow1[], int arrayRow2[], int arrayRow3[], int size) {
-    bool unique[9] = { 
+    bool unique[9] = { false, false, false, 
                        false, false, false, 
-                       false, false, false, 
-                       false, false, false
-                     };
+                       false, false, false };
 
     for (int i = 0; i < size; i++) {
         if (unique[arrayRow1[i]-1]) return false;

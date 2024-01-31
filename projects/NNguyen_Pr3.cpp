@@ -56,13 +56,13 @@ int main(){
     cout << endl << endl;
 
     //checking input for number of floors
-    //if (numberOfFloors < 1 || numberOfFloors > 5){
+    if (numberOfFloors < 1 || numberOfFloors > 5){
         while (numberOfFloors < 1 || numberOfFloors > 5) {
             cout << "The number of floors should be between 1 and 5. Please try again." << endl;
             cout << "Enter the total number of floors of the hotel: ";
             cin >> numberOfFloors;
         }
-    //} 
+    } 
     for (int i = 1; i <= numberOfFloors; i++){
         cout << "Enter rooms on floor #" << i << ": ";
         cin >> roomsPerFloor;
